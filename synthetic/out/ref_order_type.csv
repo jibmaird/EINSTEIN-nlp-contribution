@@ -1,0 +1,18 @@
+order_type_id,order_type
+1,Antifungal Sensitivity
+2,Aspergillus PCR
+3,Biofire
+4,CMV
+5,"Cryptococcal antigen, Blood"
+6,"Cryptococcal antigen, CSF"
+7,Culture
+8,Galactomannan
+9,Histopathology
+10,Meningitis PCR
+11,Panfungal PCR
+12,PJP
+13,TDM
+14,CT scan
+15,PET scan
+16,Full blood count
+17,Other

@@ -1,0 +1,43 @@
+t1.test_id,t1.encounter_id,t1.patient_id,t1.order_name_id,t7.order_name,t1.order_id,t3.organism_id,t4.species,t4.genus,t4.class_broad,t4.class_specific,t6.specimen_source,t5.specimen_type,t1.order_type_id,t1.is_sterile,t1.collection_date,final_infection_site_id,infection_site_name,system_ifi_classification_id,system_ifi_classification
+1000,50101,101,414,CT Chest,71000,901,Unspecified mould,Unspecified,Mould,Unspecified,,,14,3,2020-06-01,1,Lung,2,Probable
+1002,50102,102,415,FDG PET-CT,71002,901,Unspecified mould,Unspecified,Mould,Unspecified,,,15,3,2020-06-01,1,Lung,2,Probable
+1004,50103,103,409,Histopathology Report,71004,901,Unspecified mould,Unspecified,Mould,Unspecified,,,9,1,2020-06-01,3,Sinus,1,Proven
+1005,50104,104,414,CT Chest,71005,901,Unspecified mould,Unspecified,Mould,Unspecified,,,14,3,2020-06-01,1,Lung,2,Probable
+1006,50104,104,415,FDG PET-CT,71006,901,Unspecified mould,Unspecified,Mould,Unspecified,,,15,3,2020-06-16,1,Lung,2,Probable
+1008,50105,105,415,FDG PET-CT,71008,901,Unspecified mould,Unspecified,Mould,Unspecified,,,15,3,2020-06-06,1,Lung,2,Probable
+1009,50105,105,414,CT Chest,71009,901,Unspecified mould,Unspecified,Mould,Unspecified,,,14,3,2020-06-21,1,Lung,2,Probable
+1011,50106,106,407,Fungal Culture,71011,101,Aspergillus fumigatus,Aspergillus,Mould,Aspergillus,Blood,Blood,7,1,2020-06-01,1,Lung,1,Proven
+1012,50107,107,407,Fungal Culture,71012,201,Candida albicans,Candida,Yeast,Candida and related species,Blood,Blood,7,1,2020-06-01,2,Blood,1,Proven
+1013,50108,108,407,Fungal Culture,71013,102,Aspergillus species,Aspergillus,Mould,Aspergillus,Blood,Blood,7,1,2020-06-01,1,Lung,2,Probable
+1014,50109,109,407,Fungal Culture,71014,201,Candida albicans,Candida,Yeast,Candida and related species,Blood,Blood,7,1,2020-06-01,2,Blood,1,Proven
+1015,50110,110,407,Fungal Culture,71015,301,Rhizopus arrhizus,Rhizopus,Mould,Mucormycota,Blood,Blood,7,1,2020-06-01,3,Sinus,1,Proven
+1016,50111,111,414,CT Chest,71016,901,Unspecified mould,Unspecified,Mould,Unspecified,,,14,3,2020-06-09,1,Lung,2,Probable
+1017,50111,111,407,Fungal Culture,71017,101,Aspergillus fumigatus,Aspergillus,Mould,Aspergillus,Blood,Blood,7,1,2020-06-21,1,Lung,1,Proven
+1019,50112,112,414,CT Chest,71019,901,Unspecified mould,Unspecified,Mould,Unspecified,,,14,3,2020-06-01,1,Lung,2,Probable
+1020,50112,112,411,Panfungal PCR,71020,901,Unspecified mould,Unspecified,Mould,Unspecified,Blood,Blood,11,3,2020-06-03,1,Lung,4,Pending
+1021,50113,113,414,CT Chest,71021,901,Unspecified mould,Unspecified,Mould,Unspecified,,,14,3,2020-06-01,1,Lung,2,Probable
+1022,50113,113,411,Panfungal PCR,71022,901,Unspecified mould,Unspecified,Mould,Unspecified,Blood,Blood,11,3,2020-06-03,1,Lung,4,Pending
+1023,50114,114,414,CT Chest,71023,901,Unspecified mould,Unspecified,Mould,Unspecified,,,14,3,2020-06-01,1,Lung,2,Probable
+1024,50114,114,411,Panfungal PCR,71024,901,Unspecified mould,Unspecified,Mould,Unspecified,Blood,Blood,11,3,2020-06-03,1,Lung,4,Pending
+1025,50115,115,407,Fungal Culture,71025,101,Aspergillus fumigatus,Aspergillus,Mould,Aspergillus,Blood,Blood,7,1,2020-06-01,1,Lung,1,Proven
+1026,50115,115,414,CT Chest,71026,901,Unspecified mould,Unspecified,Mould,Unspecified,,,14,3,2020-07-26,1,Lung,2,Probable
+1028,50116,116,414,CT Chest,71028,901,Unspecified mould,Unspecified,Mould,Unspecified,,,14,3,2020-06-01,1,Lung,2,Probable
+1030,50117,117,407,Fungal Culture,71030,201,Candida albicans,Candida,Yeast,Candida and related species,Blood,Blood,7,1,2020-06-01,2,Blood,1,Proven
+1037,50121,121,414,CT Chest,71037,901,Unspecified mould,Unspecified,Mould,Unspecified,,,14,3,2020-06-01,1,Lung,2,Probable
+1039,50122,122,415,FDG PET-CT,71039,901,Unspecified mould,Unspecified,Mould,Unspecified,,,15,3,2020-06-08,1,Lung,2,Probable
+1041,50123,123,414,CT Chest,71041,901,Unspecified mould,Unspecified,Mould,Unspecified,,,14,3,2020-06-15,1,Lung,2,Probable
+1043,50124,124,415,FDG PET-CT,71043,901,Unspecified mould,Unspecified,Mould,Unspecified,,,15,3,2020-06-22,1,Lung,2,Probable
+1045,50125,125,414,CT Chest,71045,901,Unspecified mould,Unspecified,Mould,Unspecified,,,14,3,2020-06-29,1,Lung,2,Probable
+1047,50126,126,415,FDG PET-CT,71047,901,Unspecified mould,Unspecified,Mould,Unspecified,,,15,3,2020-07-06,1,Lung,2,Probable
+1049,50127,127,414,CT Chest,71049,901,Unspecified mould,Unspecified,Mould,Unspecified,,,14,3,2020-07-13,1,Lung,2,Probable
+1051,50128,128,415,FDG PET-CT,71051,901,Unspecified mould,Unspecified,Mould,Unspecified,,,15,3,2020-07-20,1,Lung,2,Probable
+1053,50129,129,414,CT Chest,71053,901,Unspecified mould,Unspecified,Mould,Unspecified,,,14,3,2020-07-27,1,Lung,2,Probable
+1055,50130,130,415,FDG PET-CT,71055,901,Unspecified mould,Unspecified,Mould,Unspecified,,,15,3,2020-08-03,1,Lung,2,Probable
+1057,50131,131,414,CT Chest,71057,901,Unspecified mould,Unspecified,Mould,Unspecified,,,14,3,2020-08-10,1,Lung,2,Probable
+1059,50132,132,415,FDG PET-CT,71059,901,Unspecified mould,Unspecified,Mould,Unspecified,,,15,3,2020-08-17,1,Lung,2,Probable
+1061,50133,133,414,CT Chest,71061,901,Unspecified mould,Unspecified,Mould,Unspecified,,,14,3,2020-08-24,1,Lung,2,Probable
+1063,50134,134,415,FDG PET-CT,71063,901,Unspecified mould,Unspecified,Mould,Unspecified,,,15,3,2020-08-31,1,Lung,2,Probable
+1065,50135,135,407,Fungal Culture,71065,201,Candida albicans,Candida,Yeast,Candida and related species,Blood,Blood,7,1,2020-06-01,2,Blood,4,Pending
+1066,50136,136,407,Fungal Culture,71066,201,Candida albicans,Candida,Yeast,Candida and related species,Blood,Blood,7,1,2020-06-12,2,Blood,4,Pending
+1067,50137,137,407,Fungal Culture,71067,201,Candida albicans,Candida,Yeast,Candida and related species,Blood,Blood,7,1,2020-06-23,2,Blood,4,Pending
+1068,50138,138,409,Histopathology Report,71068,903,Unspecified organism,Unspecified,Unspecified,Unspecified,,,9,1,2020-06-01,99,Unknown,4,Pending

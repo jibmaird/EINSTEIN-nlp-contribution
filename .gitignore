@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+
+# Experiment output
+results/
+*.log
+
+# Never commit real clinical data. Only synthetic/out/ is tracked.
+Data/
+*.db
+
+# Figures are generated, not committed
+results/
+figures/published/
+figures/*.png
+figures/*.pdf

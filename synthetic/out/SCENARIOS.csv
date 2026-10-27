@@ -1,0 +1,39 @@
+label,patient_id,gold_episode,positive_tests,note
+NEC-CT,101,yes,CT Chest@+0,CT is the only positive test; removing CT loses the episode.
+NEC-PET,102,yes,FDG PET-CT@+0,PET is the only positive test; removing PET loses the episode.
+NEC-HISTO,103,yes,Histopathology Report@+0,Histopathology is the only positive test.
+RED-CTPET,104,yes,CT Chest@+0;FDG PET-CT@+15,"Counted in no single-modality ablation, only in the combined one."
+RED-CTPET-2,105,yes,FDG PET-CT@+5;CT Chest@+20,"Second redundant episode, PET first."
+STRUCT-1,106,yes,Fungal Culture@+0,Culture-positive; unaffected by any NLP ablation.
+STRUCT-2,107,yes,Fungal Culture@+0,Culture-positive; unaffected by any NLP ablation.
+STRUCT-3,108,yes,Fungal Culture@+0,Culture-positive; unaffected by any NLP ablation.
+STRUCT-4,109,yes,Fungal Culture@+0,Culture-positive; unaffected by any NLP ablation.
+STRUCT-5,110,yes,Fungal Culture@+0,Culture-positive; unaffected by any NLP ablation.
+STRUCT-LEAD,111,yes,CT Chest@+8;Fungal Culture@+20,CT anchors the episode 12 days before confirmation: lead time.
+CLASS-PROBABLE-1,112,yes,CT Chest@+0;Panfungal PCR@+2,Upgraded to Probable at baseline; falls back to Pending without CT.
+CLASS-PROBABLE-2,113,yes,CT Chest@+0;Panfungal PCR@+2,Upgraded to Probable at baseline; falls back to Pending without CT.
+CLASS-PROBABLE-3,114,yes,CT Chest@+0;Panfungal PCR@+2,Upgraded to Probable at baseline; falls back to Pending without CT.
+DATESHIFT,115,yes,Fungal Culture@+0;CT Chest@+55,Index date anchored early: FN despite NLP evidence near the gold date.
+IMGONLY-FILTERED,116,yes,CT Chest@+0,Excluded by the imaging-only evidentiary filter.
+NO-NLP-EVIDENCE,117,yes,Fungal Culture@+0,"No histopathology, CT or PET exists for this patient."
+UB-RECOVERABLE-CT,118,yes,,CT report exists but was scored negative: recovered only under perfect recall.
+UB-RECOVERABLE-PET,119,yes,,PET report exists but was scored negative: recovered only under perfect recall.
+UB-RECOVERABLE-HISTOPATHOLOGY,120,yes,,histopathology report exists but was scored negative: recovered only under perfect recall.
+FP-IMG-1,121,no,CT Chest@+0,"Imaging-positive, no gold episode: false positive."
+FP-IMG-2,122,no,FDG PET-CT@+7,"Imaging-positive, no gold episode: false positive."
+FP-IMG-3,123,no,CT Chest@+14,"Imaging-positive, no gold episode: false positive."
+FP-IMG-4,124,no,FDG PET-CT@+21,"Imaging-positive, no gold episode: false positive."
+FP-IMG-5,125,no,CT Chest@+28,"Imaging-positive, no gold episode: false positive."
+FP-IMG-6,126,no,FDG PET-CT@+35,"Imaging-positive, no gold episode: false positive."
+FP-IMG-7,127,no,CT Chest@+42,"Imaging-positive, no gold episode: false positive."
+FP-IMG-8,128,no,FDG PET-CT@+49,"Imaging-positive, no gold episode: false positive."
+FP-IMG-9,129,no,CT Chest@+56,"Imaging-positive, no gold episode: false positive."
+FP-IMG-10,130,no,FDG PET-CT@+63,"Imaging-positive, no gold episode: false positive."
+FP-IMG-11,131,no,CT Chest@+70,"Imaging-positive, no gold episode: false positive."
+FP-IMG-12,132,no,FDG PET-CT@+77,"Imaging-positive, no gold episode: false positive."
+FP-IMG-13,133,no,CT Chest@+84,"Imaging-positive, no gold episode: false positive."
+FP-IMG-14,134,no,FDG PET-CT@+91,"Imaging-positive, no gold episode: false positive."
+FP-STRUCT-1,135,no,Fungal Culture@+0,Structured-only false positive.
+FP-STRUCT-2,136,no,Fungal Culture@+11,Structured-only false positive.
+FP-STRUCT-3,137,no,Fungal Culture@+22,Structured-only false positive.
+FP-HISTO-1,138,no,Histopathology Report@+0,Histopathology false positive.

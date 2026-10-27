@@ -1,0 +1,21 @@
+gold_doc_id,patient_id,ifi_episode_id,if_episode_organism_id,system_diagnosis_date,organism_id,species,genus,class_specific,class_broad,ifi_infection_site_id,infection_site,system_ifi_classification_id,ifi_classification,hospital
+1,101,8001,9001,01/06/2020,101,Aspergillus fumigatus,Aspergillus,Aspergillus,Mould,1,Lung,2,Probable,Hospital A
+2,102,8002,9002,01/06/2020,101,Aspergillus fumigatus,Aspergillus,Aspergillus,Mould,1,Lung,2,Probable,Hospital B
+3,103,8003,9003,01/06/2020,301,Rhizopus arrhizus,Rhizopus,Mucormycota,Mould,3,Sinus,1,Proven,Hospital A
+4,104,8004,9004,11/06/2020,101,Aspergillus fumigatus,Aspergillus,Aspergillus,Mould,1,Lung,2,Probable,Hospital B
+5,105,8005,9005,13/06/2020,102,Aspergillus species,Aspergillus,Aspergillus,Mould,1,Lung,2,Probable,Hospital A
+6,106,8006,9006,01/06/2020,101,Aspergillus fumigatus,Aspergillus,Aspergillus,Mould,1,Lung,1,Proven,Hospital B
+7,107,8007,9007,01/06/2020,201,Candida albicans,Candida,Candida and related species,Yeast,2,Blood,1,Proven,Hospital A
+8,108,8008,9008,01/06/2020,102,Aspergillus species,Aspergillus,Aspergillus,Mould,1,Lung,2,Probable,Hospital B
+9,109,8009,9009,01/06/2020,201,Candida albicans,Candida,Candida and related species,Yeast,2,Blood,1,Proven,Hospital A
+10,110,8010,9010,01/06/2020,301,Rhizopus arrhizus,Rhizopus,Mucormycota,Mould,3,Sinus,1,Proven,Hospital B
+11,111,8011,9011,21/06/2020,101,Aspergillus fumigatus,Aspergillus,Aspergillus,Mould,1,Lung,2,Probable,Hospital A
+12,112,8012,9012,01/06/2020,101,Aspergillus fumigatus,Aspergillus,Aspergillus,Mould,1,Lung,2,Probable,Hospital B
+13,113,8013,9013,01/06/2020,102,Aspergillus species,Aspergillus,Aspergillus,Mould,1,Lung,2,Probable,Hospital A
+14,114,8014,9014,01/06/2020,101,Aspergillus fumigatus,Aspergillus,Aspergillus,Mould,1,Lung,2,Probable,Hospital B
+15,115,8015,9015,31/07/2020,101,Aspergillus fumigatus,Aspergillus,Aspergillus,Mould,1,Lung,2,Probable,Hospital A
+16,116,8016,9016,01/06/2020,101,Aspergillus fumigatus,Aspergillus,Aspergillus,Mould,1,Lung,2,Probable,Hospital B
+17,117,8017,9017,09/09/2020,201,Candida albicans,Candida,Candida and related species,Yeast,2,Blood,1,Proven,Hospital A
+18,118,8018,9018,01/06/2020,101,Aspergillus fumigatus,Aspergillus,Aspergillus,Mould,1,Lung,2,Probable,Hospital B
+19,119,8019,9019,01/06/2020,101,Aspergillus fumigatus,Aspergillus,Aspergillus,Mould,1,Lung,2,Probable,Hospital A
+20,120,8020,9020,01/06/2020,101,Aspergillus fumigatus,Aspergillus,Aspergillus,Mould,1,Lung,2,Probable,Hospital B

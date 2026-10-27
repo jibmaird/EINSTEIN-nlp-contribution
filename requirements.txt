@@ -1,0 +1,13 @@
+# Core: the episode-detection algorithm and the experiments.
+pandas>=1.3
+numpy>=1.21
+scipy>=1.7
+
+# Figures only (src/experiments/figures.py).
+matplotlib>=3.4
+
+# Optional. evaluate.py imports pyodbc at module level, but the only code path
+# that uses it is read_test_type_map(), which src/experiments/offline.py
+# replaces with the exported CSVs. Install it only to run against a live
+# database; the synthetic quickstart does not need it.
+# pyodbc>=4.0
